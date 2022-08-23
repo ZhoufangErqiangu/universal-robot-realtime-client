@@ -4,7 +4,7 @@ import {
   RealtimeInterfaceLayout,
 } from "./RealtimeInterface";
 
-export class UniversalRobotInterface {
+export class UniversalRobotClient {
   readonly client: net.Socket;
   protected connected = false;
   data?: RealtimeInterface;
